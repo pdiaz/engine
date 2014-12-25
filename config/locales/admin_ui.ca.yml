@@ -150,7 +150,7 @@ ca:
         new: nou fragment
       new:
         title: Nou fragment
-        help: "Ompli el següent formulari per crear el fragment.
+        help: "Ompli el següent formulari per crear el fragment."
       edit:
         title: Editando fragmento
         help: "Ompli el següent formulari per actualitzar el fragment."
