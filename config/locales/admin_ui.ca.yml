@@ -1,0 +1,332 @@
+ca:
+  locomotive:
+    errors:
+      "500":
+        title: Error d'Aplicació
+        notice: "Oups! Hi ha hagut un error en l'aplicació. Ho sentim."
+        link: "&rarr; Tornar a l'inici"
+      "404":
+        title: Pàgina no encontrada
+        notice: "La pàgina requerida no existeix."
+        link: "&rarr; Tornar"
+
+    locales:
+      es: Espanyol
+      ca: Català
+      en: Anglés
+      fr: Francés
+      it: Italià
+      ru: Rus
+      de: Alemany
+      pl: Polonès
+      nl: Holandès
+      et: Estonià
+      pt: Portuguès
+      pt-BR: "Portuguès brasiler"
+      nb: Noruec
+      ja: Japonès
+      zh-CN: Xinès
+      cs: Txec
+      bg: Búlgar
+      sk: Eslovac
+      sr: Serbi
+
+    buttons:
+      login: Iniciar sesiò
+      send_password: Enviar
+      change_password: Canviar
+      new_item: "+ afegir"
+      switch_to_site: Anar
+      delete: Esborrar
+
+    messages:
+      confirm: Si us plau confirmi
+      sending_form: El formulari està sent enviat
+
+    shared:
+      header:
+        welcome: Binvingut, %{name}
+        see: Veure Web
+        switch: Canviar de web
+        help: Ajuda
+        logout: Sortir
+      menu:
+        contents: Contingut
+        assets: Col·leccions
+        settings: Ajustes
+        pages: Pàgines
+        snippets: Fragments
+        account: Meu Compte
+        site: Web
+        theme_assets: Fitxers del Tema
+        disable_with: "locomotive.disable_with.form_actions"
+      footer:
+        who_is_behind: "Servei desenvolupat per %{development} i dissenyat per <a href=\"http://www.sachagreif.com\"> Sacha Greif </a>"
+      form:
+        change_file: canviar
+        delete_file: eliminar
+        cancel: cancelar
+      form_actions:
+        back: Volver sin guardar
+        create: Crear
+        update: Actualizar
+        send: Enviar
+        disable_with: Pendiente...
+
+    notifications:
+      new_content_entry:
+        subject: "[%{domain}][%{type}] nuevo"
+        title: "Hola %{name}, queremos hacerte saber que una nueva instancia se creó el día %{date}"
+        type: "Modelo: %{type}"
+
+    custom_fields:
+      edit:
+        title: Editant camp personalizat
+      text_formatting:
+        none: Cap
+        html: HTML
+      types:
+        file:
+          delete_file: Borrar fichero
+        has_many:
+          empty: Vacío
+      index:
+        is_required: requerido
+        default_label: Nombre del campo
+      form:
+        default_label: Nombre del campo
+
+    sessions:
+      new:
+        title: Inicio de sesión
+        link: "Olvidé mi clave"
+        email: "Email"
+        password: "Clave"
+
+    passwords:
+      new:
+        title: Clave olvidada
+        link: "&rarr; Volver a la página de inicio"
+        email: "Su email"
+      edit:
+        title: Cambiar my clave
+        link: "&rarr; Volver a la página de inicio de sesióne"
+        password: "Su nueva clave"
+        password_confirmation: "Repita la nueva clave"
+
+    pages:
+      index:
+        title: Mostrando páginas
+        help: "Las páginas se organizan en forma de árbol. Puede reordenar páginas y carpetas."
+        no_items: "No se ha creado ninguna página aún. Pulse <a href=\"%{url}\">aquí</a> to para crear la primera."
+
+        new: Nueva página
+        latest_entries: Últimas páginas
+      new:
+        title: Nueva página
+        help: "Por favor rellene el formulario de más abajo para crear su página. ¡Atención! Las páginas, por defecto, están 'no publicadas'."
+      page:
+        updated_at: última actualización
+      edit:
+        show: mostrar
+        help: "El título de la página se puede cambiar haciendo click en él."
+        ask_for_title: "Por favor escriba el nuevo título"
+      form:
+        delete_file: Esborrar fitxer
+        default_block: Per defecte
+        cache_strategy:
+          none: Cap
+          simple: Simple
+          hour: 1 hora
+          day: 1 día
+          week: 1 setmana
+          month: 1 mes
+
+    snippets:
+      index:
+        title: Mostrant fragments
+        help: "Els Fragments són trossos de codi HTML que poden ser utilitzats en diversos llocs del lloc web (per exemple un peu de pàgina)."
+        no_items: "Per ara no hi ha fragments. Feu clic <a href=\"%{url}\"> aquí </a> per crear el primer."
+        new: nou fragment
+      new:
+        title: Nou fragment
+        help: "Ompli el següent formulari per crear el fragment.
+      edit:
+        title: Editando fragmento
+        help: "Ompli el següent formulari per actualitzar el fragment."
+      snippet:
+        updated_at: Última actualizaciò
+
+    sites:
+      new:
+        title: Nova web
+        help: "Ompli el següent formulari per crear la seva web."
+
+    current_site:
+      edit:
+        export: exportar
+        import: importar
+        new_membership: afegir compta
+        help: "El nombre del sitio puede actualizarse haciendo click en él."
+        ask_for_name: "Por favor escriba el nuevo nombre del sitio"
+
+    memberships:
+      roles:
+        admin: Administrador
+        designer: Disenyador
+        author: Autor
+      new:
+        title: Nova compta
+        help: "Si us plau escrigui el correu electrònic del compte que a afegir. Si no heu entrat, se li redirigirà al formulari de creació de comptes."
+
+    accounts:
+      new:
+        title: Nueva cuenta
+        help: "Rellene el siguiente formulario para añadir una nueva cuenta."
+
+    my_account:
+      edit:
+        help: "Per canviar el seu nom, feu clic en ell."
+        new_site: nova web
+        es: Espanyol
+        ca: Català
+        en: Anglés
+        fr: Francés
+        it: Italià
+        ru: Rus
+        de: Alemany
+        pl: Polonès
+        nl: Holandès
+        et: Estonià
+        pt: Portuguès
+        pt-BR: "Portuguès brasiler"
+        nb: Noruec
+        ja: Japonès
+        zh-CN: Xinès
+        cs: Txec
+        bg: Búlgar
+        sk: Eslovac
+        sr: Serbi
+        ask_for_name: "Si us plau escrigui el seu nou nom"
+
+    theme_assets:
+      index:
+        title: Mostrando ficheros del tema
+        help: "La sección de ficheros del tema sirve para gestionar los ficheros necesitados por su diseño, ... etc. Si necesita gestionar una galería de imágenes, utilice la sección de 'Media' en lugar de la de ficheros del tema."
+        all: todos los ficheros
+        new: nuevo fichero
+        snippets: Fragmentos
+        css_and_js: Estilo y Javascript
+        fonts: Fuentes
+        images: Imágenes
+        media: Media
+        no_items: "Por ahora no hay ficheros."
+      asset:
+        updated_at: Última actualización
+      new:
+        title: Nuevo Fichero
+        help: "Tiene la opción de subir un fichero desde su disco duro o copiar y pegar el contenido de una hoja de estilos o javascript."
+      edit:
+        title: "Editando %{file}"
+        help: "Este fichero está accesible en la siguiente url: <a href='%{url}'>%{url}</a>"
+        help_image: "Para insertar una imagen de la plantilla en sus páginas o Snippets utilice el siguiente código Liquid: <span class='code'>{{ '%{path}' | theme_image_tag }}</span>.<br/>. La imagen tiene las siguientes dimensiones : <b>%{width}px x %{height}px</b>.<br/>"
+        help_javascript: "Para insertar un fichero javascript en la plantilla de sus páginas utilice el siguiente código Liquid : <span class='code'>{{ '%{path}' | javascript_tag }}</span>.<br/>"
+        help_stylesheet: "Para insertar una hoja de estilos en la plantilla de sus páginas utilice el siguiente código Liquid : <span class='code'>{{ '%{path}' | stylesheet_tag }}</span>.<br/>"
+      form:
+        picker_link: Insertar un fichero en el código
+        choose_file: Elegir un fichero
+        choose_plain_text: Elegir texto plano
+      images:
+        title: Mostrando imágenes
+        no_items: "No hay ficheros por ahora."
+
+    assets:
+      new:
+        title: Nuevo contenido multi-media
+        help: "Rellene el siguiente formulario para crear el contenido multi-media."
+      edit:
+        title: Editando contenido multi-media
+        help: "Rellene el siguiente formulario para actualizar el contenido multi-media."
+
+    content_types:
+      index:
+        new: nuevo modelo
+      new:
+        title: Nuevo modelo
+        help: "Cree su propio modelo de datos (Proyecto, Persona, ...etc). Su modelo debería tener al menos un campo obligatorio."
+      edit:
+        title: Editando modelo
+        help: "Su modelo debe tener al menos un campo obligatorio."
+        show_items: enseñar elementos
+        new_item: nuevo elemento
+      form:
+        order_by:
+          created_at: 'Por fecha de creación'
+          updated_at: 'Por fecha de última modificación'
+          position_in_list: Manualmente
+        order_direction:
+          asc: Ascendente
+          desc: Descendente
+
+    content_entries:
+      index:
+        title: 'Mostrando "%{type}"'
+        edit: editar modelo
+        destroy: borrar modelo
+        download: descargar elementos
+        new: nuevo elemento
+        category_noname: "Sin nombre"
+        latest_entries: "Últimos elementos"
+        updated_at: "Última actualización"
+      list:
+        no_entries: "No hay ningún elemento. Haga click <a href=\"%{url}\">aquí</a> para crear el primero."
+      new:
+        title: '%{type} &mdash; nuevo elemento'
+      edit:
+        title: '%{type} &mdash; editando elemento'
+      form:
+        has_many:
+          new_item: Nuevo elemento
+
+    image_picker:
+      link: Insertar una imagen el el código
+
+    cross_domain_sessions:
+      new:
+        title: Autenticación multi-dominio
+        notice: Será redirigido al sitio web en un par de segundos.
+
+    import:
+      new:
+        title: Importar plantilla de sitio web
+        help: "Tenga cuidado al subir una nueva plantilla a un sitio web existente; los datos existentes podrían ser modificados o incluso borrados."
+      show:
+        title: Importación en progreso
+        help: "Su sitio web está siendo importado desde el fichero zip que ha subido. La importación dura algunos segundos."
+        steps:
+          site: Información del Sitio
+          content_types: Modelos
+          assets: Contenido multi-media
+          snippets: Fragmentos
+          pages: Páginas
+        messages:
+          success: "El sitio web se ha actualizado con éxito."
+          failure: "La importación no se pudo realizar."
+
+    installation:
+      common:
+        title: Instalación inicial de Locomotive
+        next: Siguiente
+      step_1:
+        title: "Paso 1/2 &mdash; Crear cuenta"
+        name: Nombre de la cuenta
+        email: Email
+        password: Clave
+        password_confirmation: Repetición de la clave
+        done: "Ya se ha añadido una cuenta:<br/><strong>%{name}</strong>, <em>%{email}</em>"
+        next: Crear cuenta
+      step_2:
+        title: "Paso 2/2 &mdash; Crear el primer sitio"
+        explanations: "Si ya ha subido una primera plantilla de sitio (ver instrucciones), puede empezar a utilizarla ahora mismo. En caso contrario, puede subir una nueva (hay plantillas gratuitas <a href=\"http://www.locomotivecms.com/support/themes\">aquí</a>)."
+        back_to_default_template: "Haga click <a href='#'>aquí</a> para elegir la plantilla por defecto"
+        next: Crear sitio
